@@ -1,5 +1,5 @@
 # actions_test
-
+[![Debug](https://github.com/FlorianGross/ActionsTest/actions/workflows/Test.yml/badge.svg)](https://github.com/FlorianGross/ActionsTest/actions/workflows/Test.yml)
 A new Flutter project.
 
 ## Getting Started
