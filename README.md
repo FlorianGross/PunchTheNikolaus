@@ -1,4 +1,6 @@
 # PunchTheNikolaus
+[![ci](https://github.com/FlorianGross/PunchTheNikolaus/actions/workflows/ci.yml/badge.svg)](https://github.com/FlorianGross/PunchTheNikolaus/actions/workflows/ci.yml)
+
 
 A new Flutter project.
 
