@@ -23,16 +23,13 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
-
   final String title;
-
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-
   void _incrementCounter() {
     setState(() {
       _counter++;
@@ -50,8 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Padding(
-              padding: const EdgeInsets.only(left: 40, bottom: 40),
-              child: GestureDetector( onTap: () => _incrementCounter(), child: Image.asset("./assets/image.png")),
+              padding: const EdgeInsets.only(left: 50, bottom: 40),
+              child: GestureDetector(onTap: () => _incrementCounter(), child: Image.asset("./assets/image.png")),
             ),
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
